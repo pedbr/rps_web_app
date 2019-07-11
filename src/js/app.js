@@ -1,13 +1,16 @@
-let playRock = () => {
-    console.log('You chose Rock!')
+const playRock = () => {
+    let displayChoice = document.getElementById("display-choice")
+    displayChoice.innerHTML = `You chose rock!`
 }
 
-let playPaper = () => {
-    console.log('You chose Paper!')
+const playPaper = () => {
+    let displayChoice = document.getElementById("display-choice")
+    displayChoice.innerHTML = `You chose paper!`
 }
 
-let playScissors = () => {
-    console.log('You chose Scissors!')
+const playScissors = () => {
+    let displayChoice = document.getElementById("display-choice")
+    displayChoice.innerHTML = `You chose scissors!`
 }
 
 document.getElementById("play-rock").addEventListener("click", playRock);
